@@ -1,0 +1,20 @@
+= Events and Messaging
+
+Robert Stockwell
+West Texas A&M University
+CIDM 6330 
+Spring 2022
+
+== Overview
+
+Program events are an area that need to be considered outside of the domain model. If events are addressed here they can cause very messy code and start to break down the architecture that has been created. According to Pervical and Gregory "it is the goop around the edges that makes a mess of the codebase (Gregory, 2020)".  In the case of Architecture Patters with Python, the messaging to outside of the system is addressed, by looking at notification of an out of stock sku. Initially it is an email is propposed, by the business analysist, but what happens if the notice vehicle is changed, say to a SMS notification. Doing this in the program presents challanges, such as would the code base need to change for each notification, can it be turned on and off easily? 
+
+ Messaging is another area that needs to be considered in
+
+
+
+== References
+
+Gregory, H.J. (2020). _Architecture Patterns with Python._ Sebastopol: O’Reilly Media, Inc.
+
+
